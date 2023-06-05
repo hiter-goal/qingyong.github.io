@@ -75,7 +75,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #2d228d;
+	color: #1b25a7;
 	text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ a:hover {
 	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #5d52bd;
+	color: #365d99;
 	text-decoration: none;
 }
 #layout-menu a:hover {
@@ -136,7 +136,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #3f23a3;
+	color: #174bbb;
 	margin-top: 0.7em;
 	margin-bottom: 0.5em;
 	padding-bottom: 0.2em;
