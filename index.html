@@ -1,183 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="description" content="Qingyong Zhu @ SIAT Medical AI Research Centre">
-    <link rel="stylesheet" href="./files/jemdoc.css" type="text/css">
-    <title>Qingyong Zhu @ SIAT Medical AI Research Centre</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qingyong Zhu - CV</title>
     <style>
-        /* Custom styles for your resume */
-        .biblist {}
-        .biblist li {}
-        div.noshow { display: none; }
-        div.bibtex {
-            margin-right: 0%;
-            margin-top: 1.2em;
-            margin-bottom: 1em;
-            border: 1px solid silver;
-            padding: 0em 1em;
-            background: #ffffee;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-        div.bibtex pre { font-size: 80%; overflow: auto; width: 100%; padding: 1em 0em; }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .title {
+            font-weight: bold;
+        }
+        .journal {
+            font-style: italic;
+        }
+        .section-title {
+            background-color: #f1f1f1;
+            padding: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
     </style>
-    <script type="text/javascript">
-        function toggleBibtex(articleid) {
-            var bib = document.getElementById('bib_' + articleid);
-            if (bib) {
-                if (bib.className.indexOf('bibtex') != -1) {
-                    bib.className.indexOf('noshow') == -1 ? bib.className = 'bibtex noshow' : bib.className = 'bibtex';
-                }
-            } else {
-                return;
-            }
-        }
-    </script>
 </head>
 <body>
-    <div id="layout-content" style="margin-top:25px">
-        <table>
-            <tbody>
-                <tr>
-                    <td width="670">
-                        <div id="toptitle">
-                            <h1><b><font color="#224b8d">Qingyong Zhu</font></b></h1>
-                        </div>
-                        <h3>Assistant Professor</h3>
-                        <p>
-                            <a href="https://www.siat.ac.cn/" target="_blank">Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences</a> <br>
-                            <a href="https://www.siat.ac.cn/medicine/medical-engineering-research-institute" target="_blank">Medical Engineering Research Institute</a> <br>
-                            <a href="https://www.siat.ac.cn/medicine/medical-ai-research-centre" target="_blank">Medical AI Research Centre</a> <br>
-                            Shenzhen, China <br>
-                        </p>
-                        <p>
-                            <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID&hl=en" target="_blank">[Google Scholar]</a>
-                            <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">[Github]</a>
-                            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/" target="_blank">[LinkedIn]</a> <br>
-                            E-mail: qingyong.zhu@siat.ac.cn <br>
-                            <br>
-                            Address: Medical AI Research Centre, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China
-                        </p>
-                    </td>
-                    <td>
-                        <!-- <img src="./files/photo.png" width="130"> -->
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="infoblock">
-            <div class="blockcontent">
-                <ul>
-                    <li>
-                        Our research group is actively seeking collaborations on inverse problems, mathematical programming, computational imaging, and geometric deep learning. Please feel free to contact us if you are interested.
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <h2>Recent News</h2>
-        <ul class="content">
-            <li>
-                [2023.12] Awarded as a Shenzhen Pengcheng Distinguished Talent.
-            </li>
-            <li>
-                [2023.11] Joined as an Assistant Professor at the Medical AI Research Centre, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.
-            </li>
-            <li>
-                [2020.07-2022.11] Completed postdoctoral research at the Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences.
-            </li>
+    <div class="container">
+        <h1>Qingyong Zhu - Curriculum Vitae</h1>
+        
+        <div class="section-title">Personal Information</div>
+        <ul>
+            <li><strong>Name:</strong> Qingyong Zhu</li>
+            <li><strong>Gender:</strong> Male</li>
+            <li><strong>Ethnicity:</strong> Han Chinese</li>
+            <li><strong>Birthdate:</strong> October 1, 1989</li>
+            <li><strong>Hometown:</strong> Yancheng, Jiangsu</li>
+            <li><strong>Current Position:</strong> Assistant Professor, Center for Medical AI, Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS)</li>
+        </ul>
+        
+        <div class="section-title">Education</div>
+        <ul>
+            <li><strong>2016-2020:</strong> Ph.D. in Computational Mathematics, Xi'an Jiaotong University, Supervisors: Prof. Jian Sun, Prof. Wei Wang</li>
+            <li><strong>2013-2016:</strong> M.Sc. in Electrical Engineering, Chongqing University of Posts and Telecommunications, Supervisors: Prof. Chun Guan, Prof. Xi Peng</li>
+        </ul>
+        
+        <div class="section-title">Postdoctoral Experience</div>
+        <ul>
+            <li><strong>2020-2022:</strong> Postdoctoral Researcher, Shenzhen Institutes of Advanced Technology, CAS, Supervisor: Prof. Dong Liang</li>
         </ul>
 
-        <style>
-            .content {
-                height: 100px;
-                background-color: white;
-                overflow-y: scroll;
-            }
-        </style>
+        <div class="section-title">Research Experience</div>
+        <ul>
+            <li><strong>2022-Present:</strong> Assistant Professor, Center for Medical AI, Shenzhen Institutes of Advanced Technology, CAS</li>
+            <li><strong>2012-2013:</strong> Technician, Radio Division, Jiangsu Ouman Automation Instruments Co., Ltd.</li>
+        </ul>
 
-        <h2>Short Bio</h2>
-        <p>
-            Qingyong Zhu is an Assistant Professor at the Medical AI Research Centre, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences. He received his Ph.D. in Computational Mathematics from Xi'an Jiaotong University in 2020, advised by Prof. Jian Sun and Prof. Wei Wang. His research interests include inverse problem solving, mathematical programming, computational imaging, and geometric deep learning.
-        </p>
+        <div class="section-title">Research Projects</div>
+        <ul>
+            <li><strong>Key Project:</strong> <em>Coupled Motion and Invariance Priors for Dynamic High-Resolution Gastrointestinal MRI</em>, National Natural Science Foundation of China (NSFC), 2024-2028, RMB 2.4 million, Key Contributor</li>
+            <li><strong>General Project:</strong> <em>Matrix Rational Orthogonal Similarity Spectra and Related Problems</em>, NSFC, 2020-2023, RMB 520,000, Co-Investigator</li>
+            <li><strong>Postdoctoral Research Fund:</strong> <em>Multiscale Projection Convex Difference Regularization for Accelerated MRI Parameter Imaging</em>, China Postdoctoral Science Foundation, 2021-2023, RMB 80,000, Principal Investigator</li>
+        </ul>
 
-        <h2>Education</h2>
+        <div class="section-title">Representative Research Papers</div>
         <ul>
             <li>
-                <p>
-                    <b>Ph.D.</b>, 2016.09 - 2020.06 <br>
-                    Xi'an Jiaotong University, Computational Mathematics <br>
-                    Advisors: Prof. Jian Sun, Prof. Wei Wang
-                </p>
+                <span class="title">Qingyong Zhu, Wei Wang;</span>
+                <span class="journal">Improving Multi-contrast Imaging with Reference Guided Location and Orientation Priors on Edges</span>.
+                Applied Magnetic Resonance, 2019, 50(1-3): 137-158. 
+                (Journal Paper, First Author, JCR Q3)
             </li>
             <li>
-                <p>
-                    <b>M.Eng.</b>, 2013.09 - 2016.06 <br>
-                    Chongqing University of Posts and Telecommunications, Theory and New Technology of Electrical Engineering <br>
-                    Advisors: Prof. Chun Guan, Prof. Xi Peng
-                </p>
+                <span class="title">Qingyong Zhu, Wei Wang, Jing Cheng, Xi Peng;</span>
+                <span class="journal">Incorporating Reference Guided Priors Into Calibrationless Parallel Imaging Reconstruction</span>.
+                Magnetic Resonance Imaging, 2019, 57: 347-358. 
+                (Journal Paper, First Author, JCR Q2)
+            </li>
+            <li>
+                <span class="title">Qingyong Zhu, Yanan Ren, Zhilang Qiu, Wei Wang;</span>
+                <span class="journal">Robust MR Image Super-resolution Reconstruction with Cross-modal Edge-preserving Regularization</span>.
+                International Journal of Imaging Systems and Technology, 2019, 29(4): 491-500. 
+                (Journal Paper, First Author, JCR Q2)
+            </li>
+            <li>
+                <span class="title">Qingyong Zhu, Zhuo-Xu Cui, Yuanyuan Liu, Jing Cheng, Kankan Zhao, Haifeng Wang, Yanjie Zhu, Dong Liang;</span>
+                <span class="journal">Characteristic-Constrained Accelerating MR T1rho Mapping with Blockwise Infimal Convolution of Matrix Elastic-net Regularization</span>.
+                Medical Physics, 2023, 50(4): 2224-2238. 
+                (Journal Paper, First Author, JCR Q1)
+            </li>
+            <li>
+                <span class="title">Qingyong Zhu, Bei Liu, Zhuo-Xu Cui, Jing Cheng, Chentao Cao, Yuanyuan Liu, Dong Liang, Yanjie Zhu;</span>
+                <span class="journal">Accelerated Cardiac Cine MRI using Spatiotemporal Correlation-based Hybrid Plug-and-Play Priors (SEABUS)</span>.
+                Physics in Medicine and Biology, 2022, 67(21): 215008. 
+                (Journal Paper, First Author, JCR Q1)
+            </li>
+            <li>
+                <span class="title">Qingyong Zhu, Bei Liu, Zhuo-Xu Cui, Chentao Cao, Xiaoming Yan, Yuanyuan Liu, Jing Cheng, Yihang Zhou, Yanjie Zhu, Haifeng Wang, Hongwu Zeng, Dong Liang;</span>
+                <span class="journal">PEARL: Cascaded Self-supervised Cross-fusion Learning For Parallel MRI Acceleration</span>.
+                IEEE Journal of Biomedical and Health Informatics, 2023. 
+                (Journal Paper, First Author, JCR Q1, Top Journal of CAS)
+            </li>
+            <li>
+                <span class="title">Zhuo-Xu Cui, Qingyong Zhu, Jing Cheng, Bo Zhang, Dong Liang;</span>
+                <span class="journal">Deep Unfolding as Iterative Regularization for Imaging Inverse Problems</span>.
+                Inverse Problems, 2024, 40(2): 025011. 
+                (Journal Paper, Co-first Author, JCR Q1)
+            </li>
+            <li>
+                <span class="title">Majun Shi, Qingyong Zhu, Bei Liu, Yuchao Li;</span>
+                <span class="journal">Weak Submodularity Implies Localizability: Local Search for Constrained Non-submodular Function Maximization</span>.
+                Discrete Mathematics, 348(2):114287. 
+                (Journal Paper, Co-first Author, JCR Q2)
+            </li>
+            <li>
+                <span class="title">Qingyong Zhu, Jing Cheng, Zhuo-Xu Cui, Yuanyuan Liu, Yanjie Zhu, Dong Liang;</span>
+                <span class="journal">Boosting of Half-Quadratic Splitting Algorithm for Undersampled Brain MRI Reconstruction</span>.
+                ISMRM & SMRT Conference & Exhibition 2022, London, 2022-5-7 to 2022-5-12. 
+                (Conference Paper, First Author, Top Conference in MRI, Oral Presentation)
+            </li>
+            <li>
+                <span class="title">Qingyong Zhu, Dong Liang;</span>
+                <span class="journal">Using Spatio-temporal Correlation Based Hybrid Plug-and-Play Priors (SEABUS) for Accelerated Dynamic Cardiac Cine MRI</span>.
+                2021 MICCAI Workshop on Machine Learning in Medical Imaging (MICCAI-MLMI), Strasbourg, 2021-9-27 to 2021-10-1. 
+                (Conference Paper, First Author, Top Medical Imaging Conference, Oral Presentation)
             </li>
         </ul>
-
-        <h2>Research Experience</h2>
-        <ul>
-            <li>
-                <p>
-                    <b>Postdoctoral Researcher</b>, 2020.07 - 2022.11 <br>
-                    Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences <br>
-                    Collaborating Advisor: Prof. Dong Liang
-                </p>
-            </li>
-            <li>
-                <p>
-                    <b>Assistant Professor</b>, 2022.11 - Present <br>
-                    Medical Engineering Research Institute, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
-                </p>
-            </li>
-            <li>
-                <p>
-                    <b>Technician</b>, 2012.07 - 2013.05 <br>
-                    Jiangsu Ouman Automation Instrument Co., Ltd., Radio Department
-                </p>
-            </li>
-        </ul>
-
-        <h2>Selected Grants</h2>
-        <ul>
-            <li>
-                National Natural Science Foundation of China, Key Project, 62331028, "Method and Application of Dynamic High-Resolution MRI of Digestive Tract Coupled with Motion and Invariance Priors", 2024-01-01 to 2028-12-31, RMB 2.4 million, In Progress, Key Participant
-            </li>
-            <li>
-                National Natural Science Foundation of China, General Project, 11971376, "Graph Spectrum Determination Based on Matrix Rational Orthogonal Similarity and Related Issues", 2020-01-01 to 2023-12-31, RMB 0.52 million, Completed, General Participant
-            </li>
-            <!-- Add more grants as needed -->
-        </ul>
-
-        <h2>Selected Publications</h2>
-        <ul>
-            <li>
-                Qingyong Zhu, Wei Wang. "Improving Multi-contrast Imaging with Reference Guided Location and Orientation Priors on Edges". Applied Magnetic Resonance, 2019, 50(1-3): 137-158. (First Author, JCR Q3)
-            </li>
-            <!-- Add more publications as needed -->
-        </ul>
-
-        <h2>Patents and Intellectual Property</h2>
-        <ul>
-            <li>
-                Dong Liang, Qingyong Zhu, et al. "Matrix Elastic Net Convolution Infimal Convolution Regularization for Accelerated MR Parameter Imaging". China, CN202111547324.3, Published, 2021-12-16.
-            </li>
-            <!-- Add more patents as needed -->
-        </ul>
-
-        <h2>Professional Memberships</h2>
-        <ul>
-            <li>China Society for Industrial and Applied Mathematics</li>
-            <li>China Society of Image and Graphics</li>
-            <li>Chinese Society of Biomedical Engineering</li>
-        </ul>
-
-        <div id="footer">
-            <div id="footer-text"></div>
-            &copy; 2023 Qingyong Zhu | Last Update: 2023.12
-        </div>
     </div>
 </body>
 </html>
