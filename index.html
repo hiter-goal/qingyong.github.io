@@ -1,104 +1,568 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hongming Shan, PhD</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-            color: #333;
-        }
-        h1 {
-            color: #2a5599;
-            font-size: 2em;
-        }
-        h2 {
-            color: #2a5599;
-            margin-top: 30px;
-            font-size: 1.5em;
-        }
-        a {
-            color: #2a5599;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .profile-section {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 30px;
-        }
-        .profile-section img {
-            border-radius: 8px;
-            margin-right: 20px;
-            width: 150px;
-        }
-        .news-list {
-            list-style: none;
-            padding: 0;
-        }
-        .news-list li {
-            margin-bottom: 10px;
-        }
-        .chinese-content {
-            margin-top: 20px;
-            color: #555;
-            font-size: 0.95em;
-        }
-        footer {
-            margin-top: 50px;
-        }
-    </style>
-</head>
+
+
+
+<meta name="description" content="Jianing Zhu @ HKBU ML">
+<link rel="stylesheet" href="./files/jemdoc.css" type="text/css">
+<title>Jianing Zhu @ HKBU ML</title>
+
+
 <body>
-    <header>
-        <h1>Hongming Shan, PhD</h1>
-        <p><strong>IEEE/CCF Senior Member</strong></p>
-        <p><strong>Professor (PI)</strong></p>
-        <p>Institute of Science and Technology for Brain-inspired Intelligence<br>
-        MOE Frontiers Center for Brain Science<br>
-        Fudan University</p>
-    </header>
 
-    <main>
-        <div class="profile-section">
-            <img src="profile-photo.jpg" alt="Hongming Shan">
-            <p>
-                I am a Professor at the <a href="#">Institute of Science and Technology for Brain-inspired Intelligence</a>, Fudan University. Before joining Fudan University, I was a Research Scientist working with <a href="#">Prof. Ge Wang</a> at Biomedical Imaging Center, Rensselaer Polytechnic Institute. I received my Ph.D. in machine learning from <a href="#">Fudan University</a> in 2017, under the supervision of <a href="#">Prof. Junping Zhang</a>.<br><br>
-                My research interests are in machine learning, computer vision, and medical imaging and analysis. My primary interests are representation learning, generative AI, medical image reconstruction, and brain disease analysis.
-            </p>
+    <style>
+        /*********************************
+         The list of publication items
+         *********************************/
+    /* The list of items */
+    .biblist { }
+    
+    /* The item */
+    .biblist li { }
+    
+    /* You can define custom styles for plstyle field here. */
+    
+    
+    /*************************************
+     The box that contain BibTeX code
+     *************************************/
+    div.noshow { display: none; }
+    div.bibtex {
+      margin-right: 0%;
+      margin-top: 1.2em;
+      margin-bottom: 1em;
+      border: 1px solid silver;
+      padding: 0em 1em;
+      background: #ffffee;
+    }
+    div.bibtex pre { font-size: 80%; overflow: auto;  width: 100%; padding: 1em 0em;}</style>
+    <script type="text/javascript">
+        <!--
+        // Toggle Display of BibTeX
+        function toggleBibtex(articleid) {
+            var bib = document.getElementById('bib_'+articleid);
+            if (bib) {
+                if(bib.className.indexOf('bibtex') != -1) {
+                    bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+                }
+            } else {
+                return;
+            }
+        }
+    -->
+        </script>
+
+<div id="layout-content" style="margin-top:25px">
+
+<table>
+	<tbody>
+		<tr>
+			<td width="670">
+				<div id="toptitle">					
+					<h1><b><font color="#203060">Jianing Zhu</font></b>&nbsp;
+                        </div>
+
+				<h3>Ph.D. Student</h3>
+                <p>
+					<a href="https://github.com/tmlr-group" target=&ldquo;blank&rdquo;>TMLR Group</a> <br>
+					<a href="https://www.comp.hkbu.edu.hk/v1/" target=&ldquo;blank&rdquo;>Department of Computer Science</a> <br>
+					<a href="https://www.sci.hkbu.edu.hk/eng" target=&ldquo;blank&rdquo;>Faculty of Science</a>,
+                    <a href="https://www.hkbu.edu.hk/en.html" target=&ldquo;blank&rdquo;>Hong Kong Baptist University</a> <br>
+					Kowloon Tong, Hong Kong SAR<br>
+
+				</p>
+                <p>
+                    <a href="https://scholar.google.com/citations?user=82uNA3MAAAAJ&hl=en" target="_blank">[Google Scholar]</a>
+                    <a href="https://github.com/ZFancy" target="_blank">[Github]</a>
+                    <a href="https://x.com/Jianing9810" target="_blank">[Twitter]</a>
+                    <a href="https://www.linkedin.com/in/jianing-z-8712b518b/" target="_blank">[LinkedIn]</a></br><br>
+                    E-mail: csjnzhu@comp.hkbu.edu.hk or zhujianing9810@gmail.com<br>
+                    <br>
+                    Address: DLB 625, Level 6, David C. Lam Building, Shaw Campus,<br> Hong Kong Baptist University, Kowloon Tong, Hong Kong SAR
+                </p>
+			</td>
+			<td width="220" text-algin="center">
+				<img src="./files/Jianing.jpg" border="0" width="160">
+			</td>
+		</tr><tr>
+	</tr></tbody>
+</table>
+<div class="infoblock">
+<div class="blockcontent">
+<ul>
+    <li>
+        We are actively seeking for researchers to share their research work about trustworthy machine learning on TrustML YSS, please see <a href="https://trustmlresearch.github.io/index.html" target=&ldquo;blank&rdquo;>this page</a> for more information and contact us if you are interested in. See <a href="https://www.youtube.com/channel/UCipPccqvcfychKNOaYUokyQ" target=&ldquo;blank&rdquo;>[video channel]</a> for previous seminars.
+    </li>
+    <li>
+        Our TMLR Group also initiated the <a href="./seminars/index_seminar.html" target=&ldquo;blank&rdquo;>TMLR Young Scientist Seminar</a> for sharing diverse and cutting-edge research.
+    </li>
+</ul>
+</div></div>
+<h2>Recent News</h2>
+<ul class="content">
+    <li>
+        [2024.09] Our work about OOD Detection and Robust LLM Reasoning are accepted by <a href="https://neurips.cc/Conferences/2024" target="_blank">NeurIPS 2024</a>. See you in Vancouver!
+    </li>
+    <li>
+        [2024.07] Honored to be awarded as ICML 2024 <a href="https://x.com/icmlconf/status/1815647580577059312" target="_blank">Best Reviewer</a>.
+    </li>
+    <li>
+        [2024.05] Returned to Hong Kong after a wonderful internship at <a href="https://www.riken.jp/en/research/labs/aip/" target="_blank">RIKEN AIP</a>.
+    </li>
+    <li>
+        [2024.04] Honored to be awarded with Yakun Scholarship Scheme for Mainland Postgraduate Students.
+    </li>
+    <li>
+        [2024.03] Assist with the upcoming <a href="https://www.comp.hkbu.edu.hk/aiml2024/"  target="_blank">HKBU-COMP & RIKEN-AIP Joint Workshop on AI and ML 2024</a>.
+    </li>
+    <li>
+        [2023.11] Honored to be awarded as NeurIPS 2023 <a href="https://neurips.cc/Conferences/2023/ProgramCommittee"  target="_blank">Top Reviewer</a>.
+    </li>
+    <li>
+        [2023.11] Will start my internship at <a href="https://www.riken.jp/en/research/labs/aip/" target="_blank">RIKEN AIP</a> at early December.
+    </li>
+    <li>
+        [2023.11] Welcome to check the <a href="https://deepinception.github.io/" target="_blank">project page</a> of our recent work: <a href="http://arxiv.org/abs/2311.03191" target="_blank">DeepInception</a>.
+    </li>
+    <li>
+        [2023.09] One paper is accepted by <a href="https://neurips.cc/Conferences/2023" target="_blank">NeurIPS 2023</a>. 
+    </li>
+    <li>
+        [2023.09] Start my thrid-year research & learning journey. 
+    </li>
+    <li>
+        [2023.07] Attend <a href="https://icml.cc/Conferences/2023" target="_blank">ICML 2023</a> and present research work @ Hawaii.
+    </li>
+    <li>
+        [2023.06] Honored to receive Research Excellence Award @ HKBU COMP.
+    </li>
+</ul>
+
+<style>
+    .content{
+      height: 120px;
+      background-color: white;
+      overflow-y: scroll;
+    }
+</style>
+
+
+<h2>About Me</h2>
+    <p>
+	I am currently a fourth-year Ph.D. student at <a href="https://github.com/tmlr-group" target=&ldquo;blank&rdquo;>Trustworthy Machine Learning and Reasoning (TMLR) Group</a> in the <a href="https://www.comp.hkbu.edu.hk/v1/" target=&ldquo;blank&rdquo;>Department of Computer Science</a>, <a href="https://www.hkbu.edu.hk/en.html" target=&ldquo;blank&rdquo;>Hong Kong Baptist University</a>, 
+    advised by Dr. <a href="http://bhanml.github.io/" target=&ldquo;blank&rdquo;>Bo Han</a>. I was a Research Intern at <a href="https://www.riken.jp/en/research/labs/aip/">RIKEN AIP</a>, fortunately working with <a href="https://niug1984.github.io/">Dr. Gang Niu</a> and <a href="https://www.ms.k.u-tokyo.ac.jp/sugi/">Prof. Masashi Sugiyama</a>. Before that, I received my B.Eng. degree of Computer Science and Technology <a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91%E6%8B%94%E5%B0%96%E5%AD%A6%E7%94%9F%E5%9F%B9%E5%85%BB%E8%AF%95%E9%AA%8C%E8%AE%A1%E5%88%92" target="_blank">(Top-notched Student Program)</a> from <a href="http://www.scu.edu.cn/" target="_blank">Sichuan University</a> in 2021.
+    </p>
+
+    <p>My research interests lie in <b>trustworthy machine learning</b> for building human-aligned machine intelligence, particularly in developing methodologies that improve its <i>robustness</i> (e.g., for adversarial examples), <i>reliability</i> (e.g., for out-of-distribution data), and <i>transparency</i> (e.g., for functionality and traceability), as well as its applications to <b>construct responsible AI</b> and <b>benefit social goods</b>. I am always open for possible collaborations. Please feel free to drop me an email if there is any suitable ideas or opportunities to discuss. </p>
+
+
+<h2>Recent Projects</h2>
+(For more details can click the images)
+<ul>
+    <br>
+        <a href="https://arxiv.org/abs/2410.23856"><img src="./files/logo_nora.jpg" width="280" style="box-shadow: 4px 4px 8px #888" alt="NoRa"></a>
+        &nbsp &nbsp <a href="https://confidence-average.github.io/"><img src="./files/logo_cover.jpg" width="280" style="box-shadow: 4px 4px 8px #888" alt="DecoulpingUnlearning"></a>
+        &nbsp &nbsp <a href="https://deepinception.github.io/"><img src="./files/logo_deepinception.png" width="280" style="box-shadow: 4px 4px 8px #888" alt="DeepInception"></a>
+        <br> 
+        <br>
+        <a href="https://arxiv.org/abs/2406.08288"><img src="./files/logo_decouple.jpg" width="280" style="box-shadow: 4px 4px 8px #888" alt="DecoulpingUnlearning"></a>
+        &nbsp &nbsp <a href="https://arxiv.org/abs/2406.09179"><img src="./files/logo_llmcontrol.jpg" width="280" style="box-shadow: 4px 4px 8px #888" alt="llmunlearningwithcontrol"></a>
+    <br>
+</ul>
+
+<h2>Research Experience</h2>
+<ul>
+    <li>
+        <p>
+            <b>Research Intern</b>, 2023.12 - 2024.05 </br>
+            Imperfect Information Learning Team, <a href="https://www.riken.jp/en/research/labs/aip/">RIKEN AIP</a></br>
+            Advised by <a href="https://niug1984.github.io/">Dr. Gang Niu</a> and <a href="https://www.ms.k.u-tokyo.ac.jp/sugi/">Prof. Masashi Sugiyama</a></br>
+            RIKEN, Tokyo, Japan
+        </p>
+    </li>
+</ul>
+
+
+<h2>Education</h2>
+<ul>
+    <li>
+        <p>
+            <b>Ph.D. student</b>, 2021.09 - 2025.08 (expected) </br>
+            Department of Computer Science, Faculty of Science</br>
+            Hong Kong Baptist University (HKBU), Hong Kong SAR
+        </p>
+    </li>
+    <li>
+        <p>
+            <b>B.Eng.</b>, 2017.09 - 2021.06 </br>
+            College of Computer Science <a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E7%A1%80%E5%AD%A6%E7%A7%91%E6%8B%94%E5%B0%96%E5%AD%A6%E7%94%9F%E5%9F%B9%E5%85%BB%E8%AF%95%E9%AA%8C%E8%AE%A1%E5%88%92" target="_blank">(Top-notched Student Program)</a></br>
+            Sichuan University (SCU), Chengdu, China
+        </p>
+    </li>
+</ul>
+
+
+
+<h2>Selected Publication</h2>
+(* indicates equal contribution, full list can refer to <a href="https://scholar.google.com/citations?user=82uNA3MAAAAJ&hl=en" target="_blank">Google Scholar</a>)
+
+<h3>Conference Paper</h3>
+<ul>
+    <li>
+        B. Zhang*, <b>J. Zhu*</b>, Z. Wang, T. Liu, B. Du, B. Han.<br>
+        What If the Input is Expanded in OOD Detection? <br>               
+        In <a href="https://neurips.cc/Conferences/2024" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2024)</i></a>, Vancouver, 2024.<br>
+        <a href="https://arxiv.org/abs/2410.18472" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/tmlr-group/CoVer" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhang2024what')">[BibTeX]</a>
+        <div id="bib_zhang2024what" class="bibtex noshow">
+            <pre>
+@inproceedings{zhang2024what,
+        title={What If the Input is Expanded in OOD Detection?},
+        author={Zhang, Boxuan and Zhu, Jianing and Wang, Zengmao and Liu, Tongliang and Du, Bo and Han, Bo},
+        booktitle={The Thirty-Eighth Annual Conference on Neural Information Processing Systems},
+        year={2024},
+} 
+            </pre>
         </div>
-
-        <div class="chinese-content">
-            单洪明，博士生导师，国家级高层次青年人才计划，上海市扬帆人才计划，复旦大学类脑智能科学与技术研究院教授。博士毕业于复旦大学计算机科学技术学院，随后在美国伦斯勒理工学院生物医学影像中心先后担任博士后和研究科学家。主要研究方向为机器学习、医学成像、图像分析等。先后在Nature Machine Intelligence、Nature Communications、IEEE TPAMI、IEEE SPM、IEEE TMI、IEEE TIP、MedIA、ICCV、CVPR、NeurIPS等国际期刊和会议发表论文100余篇，谷歌学术引用5000余次；论文入选世界人工智能大会青年优秀论文奖、国际高被引论文、中国社会计算会议最佳论文。主持国家自然科学基金重点（海外）、面上、青年项目，上海市自然科学基金等多项科研项目。
+    </li>
+    <li>
+        Y. Geng, <b>J. Zhu</b>, J. Yao, B. Han.<br>
+        Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection <br>               
+        In <a href="https://neurips.cc/Conferences/2024" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2024)</i></a>, Vancouver, 2024.<br>
+        <a href="https://zfancy.github.io/" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/tmlr-group/SCT" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhang2024what')">[BibTeX]</a>
+        <div id="bib_zhang2024what" class="bibtex noshow">
+            <pre>
+@inproceedings{geng2024self,
+        title={Self-Calibrated Tuning of Vision-Language Models for Out-of-Distribution Detection},
+        author={Geng, Yu and Zhu, Jianing and Yao, Jiangchao and Han, Bo},
+        booktitle={The Thirty-Eighth Annual Conference on Neural Information Processing Systems},
+        year={2024},
+} 
+            </pre>
         </div>
+    </li>
+    <li>
+        Z. Zhou, R. Tao, <b>J. Zhu</b>, Y. Luo, Z. Wang, B. Han.<br>
+        Benchmarking the Reasoning Robustness against Noisy Rationales in Chain-of-thought Prompting <br>               
+        In <a href="https://neurips.cc/Conferences/2024" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2024)</i></a>, Vancouver, 2024.<br>
+        <a href="https://arxiv.org/pdf/2410.23856" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://zfancy.github.io/" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhou2024benchmarking')">[BibTeX]</a>
+        <div id="bib_zhou2024benchmarking" class="bibtex noshow">
+            <pre>
+@inproceedings{zhou2024benchmarking,
+        title={Benchmarking the Reasoning Robustness against Noisy Rationales in Chain-of-thought Prompting},
+        author={Zhou, Zhanke and Tao, Rong and Zhu, Jianing and Luo, Yiwen and Wang, Zengmao and Han, Bo},
+        booktitle={The Thirty-Eighth Annual Conference on Neural Information Processing Systems},
+        year={2024},
+} 
+            </pre>
+        </div>
+    </li>
+    <li>
+        <b>J. Zhu</b>, G. Yu, J. Yao, T. Liu, G. Niu, M. Sugiyama, B. Han.<br>
+        Diversified Outlier Exposure for Out-of-Distribution Detection via Informative Extrapolation. <br>               
+        In <a href="https://neurips.cc/Conferences/2023" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2023)</i></a>, New Orleans, 2023.<br>
+        <a href="https://arxiv.org/pdf/2310.13923.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/ZFancy/DivOE" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhu2023diversified')">[BibTeX]</a>
+        <div id="bib_zhu2023diversified" class="bibtex noshow">
+            <pre>
+@inproceedings{
+        zhu2023diversified,
+        title={Diversified Outlier Exposure for Out-of-Distribution Detection via Informative Extrapolation},
+        author={Jianing Zhu, Geng Yu, Jiangchao Yao, Tongliang Liu, Gang Niu, Masashi Sugiyama, Bo Han},
+        booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+        year={2023}
+}
+            </pre>
+        </div>
+    </li>
+    <li>
+        <b>J. Zhu</b>, H. Li, J. Yao, T. Liu, J. Xu, B Han.<br>
+        Unleashing Mask: Explore the Intrinsic Out-of-distribution Detection Capability. <br>               
+        In <a href="https://icml.cc/Conferences/2023" target="_blank"><i>International Conference on Machine Learning (ICML 2023)</i></a>, Hawaii, 2023.<br>
+        <a href="https://arxiv.org/pdf/2306.03715.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/ZFancy/Unleashing-Mask" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhu2023unleashing')">[BibTeX]</a>
+        <div id="bib_zhu2023unleashing" class="bibtex noshow">
+            <pre>
+@inproceedings{zhu2023unleashing,
+        title={Unleashing Mask: Explore the Intrinsic Out-of-distribution Detection Capability}, 
+        author={Jianing Zhu and Hengzhuang Li and Jiangchao Yao and Tongliang Liu and Jianliang Xu and Bo Han},
+        booktitle = {International Conference on Machine Learning},
+        year = {2023}
+}
+            </pre>
+        </div>
+    </li>
+    <li>
+        <b>J. Zhu</b>, X. Guo, J. Yao, C. Du, L. He, S. Yuan, T. Liu, L. Wang, B. Han.<br>
+        Exploring Model Dynamics for Accumulative Poisoning Discovery. <br>               
+        In <a href="https://icml.cc/Conferences/2023" target="_blank"><i>International Conference on Machine Learning (ICML 2023)</i></a>, Hawaii, 2023.<br>
+        <a href="https://arxiv.org/pdf/2306.03726.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/ZFancy/Memorization-Discrepancy" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhu2023exploring')">[BibTeX]</a>
+        <div id="bib_zhu2023exploring" class="bibtex noshow">
+            <pre>
+@inproceedings{zhu2023exploring,
+        title={Exploring Model Dynamics for Accumulative Poisoning Discovery}, 
+        author={Jianing Zhu and Xiawei Guo and Jiangchao Yao and Chao Du and Li He and Shuai Yuan and Tongliang Liu and Liang Wang and Bo Han},
+        booktitle = {International Conference on Machine Learning},
+        year = {2023}
+}
+            </pre>
+    </li>
+    <li>
+        <b>J. Zhu</b>, J. Yao, T. Liu, Q. Yao, J. Xu, and B. Han.<br>
+        Combating Exacerbated Heterogeneity for Robust Models in Federated Learning. <br>               
+        In <a href="https://iclr.cc/Conferences/2023" target="_blank"><i>International Conference on Learning Representations (ICLR 2023)</i></a>, Kigali, 2023. </br>
+        <a href="https://arxiv.org/pdf/2303.00250.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/ZFancy/SFAT" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhu2023combating')">[BibTeX]</a>
+        <div id="bib_zhu2023combating" class="bibtex noshow">
+            <pre>
+@inproceedings{
+    zhu2023combating,
+    title={Combating Exacerbated Heterogeneity for Robust Models in Federated Learning},
+    author={Jianing Zhu and Jiangchao Yao and Tongliang Liu and Quanming Yao and Jianliang Xu and Bo Han},
+    booktitle={The Eleventh International Conference on Learning Representations },
+    year={2023},
+    url={https://openreview.net/forum?id=eKllxpLOOm}
+}
+            </pre>
+    </li>
+    <li>
+        J. Zhou*, <b>J. Zhu*</b>, J. Zhang, T. Liu, G. Niu, B. Han, M. Sugiyama.<br>
+        Adversarial Training with Complementary Labels: On the Benefit of Gradually Informative Attacks. <br>               
+        In <a href="https://neurips.cc/Conferences/2022" target="_blank"><i>Advances in Neural Information Processing Systems (NeurIPS 2022)</i></a>, Online, 2022.<br>
+        <a href="https://arxiv.org/pdf/2211.00269.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/RoyalSkye/ATCL" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhou2022adversarial')">[BibTeX]</a>
+        [<font color="darkred"><b>Spotlight</b></font>]
+        <div id="bib_zhou2022adversarial" class="bibtex noshow">
+            <pre>
+@inproceedings{
+    zhou2022adversarial,
+    title={Adversarial Training with Complementary Labels: On the Benefit of Gradually Informative Attacks},
+    author={Jianan Zhou and Jianing Zhu and Jingfeng Zhang and Tongliang Liu and Gang Niu and Bo Han and Masashi Sugiyama},
+    booktitle={Advances in Neural Information Processing Systems},
+    editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+    year={2022},
+    url={https://openreview.net/forum?id=s7SukMH7ie9}
+}
+            </pre>
+    </li>	
+    <li>
+        <b>J. Zhu</b>, J. Yao, B. Han, J. Zhang, T. Liu, G. Niu, J. Zhou, J. Xu, H. Yang.<br>
+        Reliable Adversarial Distillation with Unreliable Teachers. <br>               
+        In <a href="https://iclr.cc/Conferences/2022" target="_blank"><i>International Conference on Learning Representations (ICLR 2022)</i></a>, Online, 2022. </br>
+        <a href="https://arxiv.org/pdf/2106.04928.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/ZFancy/IAD" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhu2022reliable')">[BibTeX]</a>
+        <div id="bib_zhu2022reliable" class="bibtex noshow">
+            <pre>
+@inproceedings{
+    zhu2022reliable,
+    title={Reliable Adversarial Distillation with Unreliable Teachers},
+    author={Jianing Zhu and Jiangchao Yao and Bo Han and Jingfeng Zhang and Tongliang Liu and Gang Niu and Jingren Zhou and Jianliang Xu and Hongxia Yang},
+    booktitle={International Conference on Learning Representations},
+    year={2022},
+    url={https://openreview.net/forum?id=u6TRGdzhfip}
+}
+            </pre>
+    </li>	
+    <li>
+        J. Zhang, <b>J. Zhu</b>, G. Niu, B. Han, M. Sugiyama, and M. Kankanhalli.<br>
+        Geometry-aware Instance-reweighted Adversarial Training. <br>               
+        In <a href="https://iclr.cc/Conferences/2021" target="_blank"><i>International Conference on Learning Representations (ICLR 2021)</i></a>, Online, 2021. </br>
+        <a href="https://arxiv.org/pdf/2010.01736.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/zjfheart/Geometry-aware-Instance-reweighted-Adversarial-Training" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhang2021geometryaware')">[BibTeX]</a>
+        [<font color="darkred"><b>Oral</b></font>]
+        <div id="bib_zhang2021geometryaware" class="bibtex noshow">
+            <pre>
+@inproceedings{
+    zhang2021geometryaware,
+    title={Geometry-aware Instance-reweighted Adversarial Training},
+    author={Jingfeng Zhang and Jianing Zhu and Gang Niu and Bo Han and Masashi Sugiyama and Mohan Kankanhalli},
+    booktitle={International Conference on Learning Representations},
+    year={2021},
+    url={https://openreview.net/forum?id=iAX0l6Cz8ub}
+}
+            </pre>
+    </li>		
+</ul>
 
-        <h2>Recent News</h2>
-        <ul class="news-list">
-            <li>[09/26/2024] DPData for explainable AI is accepted by NeurIPS 2024. <a href="#">Link</a></li>
-            <li>[09/26/2024] Adapt-Diff for low-dose CT is accepted by IEEE TRPMS. <a href="#">Link</a></li>
-            <li>[07/24/2024] IQAGPT for CT IQA with ChatGPT is accepted by Visual Computing. <a href="#">Link</a></li>
-            <li>[07/24/2024] Mitigating semantic discrepancy in stable diffusion is accepted by IEEE/CAA JAS. <a href="#">Link</a></li>
-            <li>[06/24/2024] HDiffr for medical imaging is accepted by IEEE TMI. <a href="#">Link</a></li>
-            <li>[06/20/2024] CORE for image ordinal prediction is accepted by PR. <a href="#">Link</a></li>
-            <li>[04/16/2024] FLDM-VTON for virtual try-on is accepted by IJCAI 2024. <a href="#">Link</a></li>
-            <li>[02/27/2024] DreamVideo for customized subject and motion is accepted by CVPR 2024. <a href="#">Link</a></li>
-            <li>[02/27/2024] PseCo for object counting is accepted by CVPR 2024. <a href="#">Link</a></li>
-            <li>[01/17/2024] HOPE for progression prediction of MCI is accepted by IEEE JBHI. <a href="#">Link</a></li>
-            <li>[01/05/2024] LIT-Former for CT denoising & deblurring is accepted by IEEE TMI. <a href="#">Link</a></li>
-            <li>[12/04/2023] Quad-Net for CT MAR is accepted by IEEE TRPMS. <a href="#">Link</a></li>
-            <li>[12/01/2023] A full-stack fast MRI imaging framework is accepted by Cell iScience. <a href="#">Link</a></li>
-            <li>[11/13/2023] Joint learning framework for Alzheimer's disease is accepted by MIA. <a href="#">Link</a></li>
-        </ul>
+<h3>Working Preprint</h3>
+<ul>
+    <li>
+        Q. Wang, B. Han, Y. Pu, <b>J. Zhu</b>, T. Liu, M. Sugiyama.<br>
+        Unlearning with Control: Assessing Real-world Utility for Large Language Model Unlearning. <br>               
+        In <i>arXiv</i>, 2024. <br>
+        <a href="https://arxiv.org/pdf/2406.09179.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="javascript:toggleBibtex('wang2024unlearning')">[BibTeX]</a>
+        <div id="bib_wang2024unlearning" class="bibtex noshow">
+            <pre>
+@misc{wang2024unlearning,
+        title={Unlearning with Control: Assessing Real-world Utility for Large Language Model Unlearning}, 
+        author={Qizhou Wang and Bo Han and Puning Yang and Jianing Zhu and Tongliang Liu and Masashi Sugiyama},
+        year={2024},
+        eprint={2406.09179},
+        archivePrefix={arXiv},
+}
+            </pre>
+        </div>
+    </li>
+    <li>
+        <b>J. Zhu</b>, B. Han, J. Yao, J. Xu, G. Niu, M. Sugiyama.<br>
+        Decoupling the Class Label and the Target Concept in Machine Unlearning. <br>               
+        In <i>arXiv</i>, 2024. <br>
+        <a href="https://arxiv.org/pdf/2406.08288.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="javascript:toggleBibtex('zhu2024decoupling')">[BibTeX]</a>
+        <div id="bib_zhu2024decoupling" class="bibtex noshow">
+            <pre>
+@misc{zhu2024decoupling,
+        title={Decoupling the Class Label and the Target Concept in Machine Unlearning}, 
+        author={Jianing Zhu and Bo Han and Jiangchao Yao and Jianliang Xu and Gang Niu and Masashi Sugiyama},
+        year={2024},
+        eprint={2406.08288},
+        archivePrefix={arXiv},
+}
+            </pre>
+        </div>
+    </li>
+    <li>
+        Z. Zhou*, <b>J. Zhu*</b>, F. Yu*, X. Li, X. Peng, T. Liu, B. Han.<br>
+        Model Inversion Attacks: A Survey of Approaches and Countermeasures <br>               
+        In <i>arXiv</i>, 2024. <br>
+        <!-- <a href="https://deepinception.github.io/" target="_blank">[Project Page]</a> -->
+        <a href="https://arxiv.org/pdf/2411.10023.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/AndrewZhou924/Awesome-model-inversion-attack" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('zhou2024model')">[BibTeX]</a>
+        <div id="bib_zhou2024model" class="bibtex noshow">
+            <pre>
+@misc{zhou2024model,
+        title={Model Inversion Attacks: A Survey of Approaches and Countermeasures}, 
+        author={Zhanke Zhou and Jianing Zhu and Fengfei Yu and Xuan Li and Xiong Peng and Tongliang Liu and Bo Han},
+        year={2024},
+        eprint={2411.10023},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG}
+}
+            </pre>
+        </div>
+    </li>
+    <li>
+        X. Li*, Z. Zhou*, <b>J. Zhu*</b>, J. Yao, T. Liu, B. Han.<br>
+        DeepInception: Hypnotize Large Language Model to Be Jailbreaker. <br>               
+        In <i>arXiv</i>, 2023. <br>
+        <!-- <a href="https://deepinception.github.io/" target="_blank">[Project Page]</a> -->
+        <a href="https://arxiv.org/pdf/2311.03191.pdf" target=&ldquo;blank&rdquo;>[PDF]</a>
+        <a href="https://github.com/tmlr-group/DeepInception" target=&ldquo;blank&rdquo;>[Code]</a>
+        <a href="javascript:toggleBibtex('li2023deepinception')">[BibTeX]</a>
+        <div id="bib_li2023deepinception" class="bibtex noshow">
+            <pre>
+@misc{li2023deepinception,
+        title={DeepInception: Hypnotize Large Language Model to Be Jailbreaker}, 
+        author={Xuan Li and Zhanke Zhou and Jianing Zhu and Jiangchao Yao and Tongliang Liu and Bo Han},
+        year={2023},
+        eprint={2311.03191},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG}
+}
+            </pre>
+        </div>
+    </li><br>
+</ul>
 
-        <footer>
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
-        </footer>
-    </main>
-</body>
-</html>
+<h2>Honors & Award</h2>
+<ul>
+    <li>
+        NeurIPS Top Reviewers, NeurIPS (2023)
+    </li>
+    <li>
+        ICML Best Reviewers (Top 10%), ICML (2021,2024)
+    </li>
+    <li>
+        Yakun Scholarship Scheme for Mainland Postgraduate Students, HKBU (2024)
+    </li>
+    <li>
+        Computer Science Department Research Excellence Award, HKBU (2023)
+    </li>
+    <li>
+        Computer Science Department RPg Performance Award, HKBU (2022, 2023, 2024)
+    </li>
+    <li>
+        Excellent Teaching Assistant Performance Award, HKBU (2022, 2023)
+    </li>
+    <li>
+        Nominated for Hong Kong PhD Fellowship Scheme (HKPFS), HKBU (2021)
+    </li>
+    <li>
+        National Scholarship, Ministry of Education (2018)
+    </li>
+    <li>
+        University Scholarship, SCU (2018, 2019, 2020)
+    </li>
+</ul>
+
+<h2>Academic Talk</h2>
+<ul>
+    <li>
+        Invited Talk about Trustworthy Machine Learning @ SCU Top-notched Program, Online, Dec.09, 2023.
+    </li>
+    <li>
+        Youth PhD Talk for NeurIPS 2023 @ AI Time, Online, Nov.02, 2023.
+        <a href="https://www.bilibili.com/video/BV1bC4y177Nj/" target=&ldquo;blank&rdquo;>[Video]</a>
+    </li>
+    <li>
+        Invited Talk about SFAT @ XMU ASC, Online, Aug.14, 2023.
+    </li>
+    <li>
+        Youth PhD Talk for ICLR 2023 @ AI Time, Online, Jun.06, 2023.
+        <a href="https://www.bilibili.com/video/BV12c41137bW/" target=&ldquo;blank&rdquo;>[Video]</a>
+    </li>
+</ul>
+
+<h2>Academic Service</h2>
+<ul>
+
+    <li>
+        <b>Organizing Committee</b>
+        <br><br>
+        Workshop Chair Assistant, <a href="https://neurips.cc/Conferences/2024/Committees">NeurIPS 2024</a>. <br>
+        Workshop Assistant, <a href="https://www.comp.hkbu.edu.hk/aiml2024/">HKBU-COMP & RIKEN-AIP Joint Workshop on AI and ML 2024</a>. <br>
+        Executive Group Member, <a href="https://trustmlresearch.github.io/index.html" target=&ldquo;blank&rdquo;>RIKEN TrustML Young Scientist Seminars</a>. <br>
+        Organizer, <a href="./seminars/index_seminar.html" target=&ldquo;blank&rdquo;>TMLR Young Scientist Seminars</a>.
+    </li>
+    <li>
+        <b>Conference Reviewer \ PC Member:</b> <br><br>
+        ICML [<a href="https://icml.cc/Conferences/2021/Reviewers" target="_blank">Top Reviewer</a>], NeurIPS [<a href="https://neurips.cc/Conferences/2023/ProgramCommittee"  target="_blank">Top Reviewer</a>], ICLR [<a href="https://iclr.cc/Conferences/2024/CallForTinyPapers">Area Chair in Tiny Paper Track</a>], AISTATS, KDD, ACML, AAAI, IJCAI.
+    </li>
+    <li>
+        <b>Journal Reviewer:</b> <br><br>
+        ACM Computing Surveys, TPAMI, TMLR, IJCV, JAIR, TNNLS, MLJ, NN, PR.
+    </li>
+</ul>
+
+<h2>Teaching</h2>
+(Assistance in following courses)
+<ul>
+    <li><p><a href="https://www.comp.hkbu.edu.hk/v1/file/course/COMP7250.pdf" target="_blank">COMP7250(PG)</a>: Machine Learning, Spring (2022)</p></li>
+    <li><p><a href="https://www.comp.hkbu.edu.hk/v1/file/course/COMP7240.pdf" target="_blank">COMP7240(PG)</a>: Recommender Systems, Autumn (2022, 2023)</p></li>
+    <li><p><a href="https://www.comp.hkbu.edu.hk/v1/file/course/COMP7160.pdf" target="_blank">COMP7160(PG)</a>: Research Methods in Computer Science, Autumn (2022,2023)</p></li>
+    <li><p><a href="https://www.comp.hkbu.edu.hk/v1/file/course/COMP4135.pdf" target="_blank">COMP4135(UG)</a>: Recommender Systems and Applications, Autumn (2022, 2023)</p></li>
+    <li><p><a href="https://www.comp.hkbu.edu.hk/v1/file/course/COMP3057.pdf" target="_blank">COMP3057(UG)</a>: Intro to AI and Machine Learning, Autumn (2022)</p></li>
+</ul>
+
+
+<div id="footer">
+	<div id="footer-text"></div>
+    &copy 2024 Jianing Zhu | Last Update: 2024.07
+</div>
+</br>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=m&d=xOKDPeEn4mmceJ5AAW9YHMjTAcz-JoFdsbMnC-iTcyU&co=203060&cmn=f21619&cmo=ff8f53'></script>
+
+</body></html>
