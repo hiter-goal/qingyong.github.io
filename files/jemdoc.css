@@ -31,12 +31,14 @@ a:focus {
 
 .profile {
   display: grid;
-  grid-template-columns: 230px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) 270px;
+  grid-template-areas: "profile-text portrait";
   align-items: flex-start;
   gap: 42px;
 }
 
 .profile-text {
+  grid-area: profile-text;
   flex: 1;
   min-width: 0;
 }
@@ -71,8 +73,10 @@ p {
 }
 
 .portrait {
-  width: 230px;
-  height: 300px;
+  grid-area: portrait;
+  justify-self: end;
+  width: 270px;
+  height: 352px;
   border: 1px solid #d4d4d4;
   object-fit: cover;
   object-position: 50% 18%;
@@ -189,13 +193,13 @@ li {
   }
 
   .profile {
-    grid-template-columns: 185px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) 215px;
     gap: 28px;
   }
 
   .portrait {
-    width: 185px;
-    height: 241px;
+    width: 215px;
+    height: 280px;
   }
 
   .overview-grid,
@@ -213,20 +217,25 @@ li {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 650px) {
   .profile {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "portrait"
+      "profile-text";
   }
 
   .portrait {
-    width: 190px;
-    height: 248px;
+    justify-self: center;
+    width: 210px;
+    height: 274px;
   }
+}
 
+@media (max-width: 520px) {
   h2 {
     margin-top: 30px;
   }
-
 }
 
 @media print {
