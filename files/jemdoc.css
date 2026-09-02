@@ -5,9 +5,9 @@ html {
 }
 
 body {
-  max-width: 960px;
+  max-width: 1180px;
   margin: 30px auto;
-  padding: 34px 50px 30px;
+  padding: 38px 54px 32px;
   background: #ffffff;
   color: #222222;
   font-family: Georgia, "Times New Roman", serif;
@@ -30,9 +30,9 @@ a:focus {
 }
 
 .profile {
-  display: flex;
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
   align-items: flex-start;
-  justify-content: space-between;
   gap: 42px;
 }
 
@@ -71,9 +71,8 @@ p {
 }
 
 .portrait {
-  width: 180px;
-  height: 230px;
-  flex: 0 0 auto;
+  width: 230px;
+  height: 300px;
   border: 1px solid #d4d4d4;
   object-fit: cover;
   object-position: 50% 18%;
@@ -87,6 +86,20 @@ p {
   padding: 12px 16px;
   border: 1px solid #c8c8c8;
   background: #ffffee;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 48px;
+}
+
+.overview-grid h2 {
+  margin-top: 30px;
+}
+
+.news-section ul {
+  padding-left: 22px;
 }
 
 ul,
@@ -104,12 +117,19 @@ li {
   font-size: 14px;
 }
 
+.publication-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 48px;
+}
+
 .publication-list {
+  margin-top: 4px;
   padding-left: 30px;
 }
 
 .publication-list li {
-  margin-bottom: 22px;
+  margin-bottom: 18px;
   padding-left: 4px;
 }
 
@@ -153,7 +173,7 @@ li {
   margin: 0;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 850px) {
   html {
     background: #ffffff;
   }
@@ -164,12 +184,23 @@ li {
   }
 
   .profile {
-    gap: 24px;
+    grid-template-columns: 185px minmax(0, 1fr);
+    gap: 28px;
   }
 
   .portrait {
-    width: 145px;
-    height: 188px;
+    width: 185px;
+    height: 241px;
+  }
+
+  .overview-grid,
+  .publication-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .publication-list + .publication-list {
+    margin-top: 0;
   }
 
   h1 {
@@ -179,12 +210,12 @@ li {
 
 @media (max-width: 520px) {
   .profile {
-    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
   }
 
   .portrait {
-    width: 150px;
-    height: 195px;
+    width: 190px;
+    height: 248px;
   }
 
   h2 {

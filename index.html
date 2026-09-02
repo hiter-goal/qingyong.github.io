@@ -19,6 +19,7 @@
 <body>
   <main id="layout-content">
     <section class="profile" aria-labelledby="page-title">
+      <img class="portrait" src="./files/qingyong.jpg" alt="Portrait of Qingyong Zhu" width="230" height="300">
       <div class="profile-text">
         <div id="toptitle">
           <h1 id="page-title">Qingyong Zhu</h1>
@@ -39,7 +40,6 @@
           Address: No. 1068 Xueyuan Avenue, Shenzhen University Town, Nanshan District, Shenzhen
         </p>
       </div>
-      <img class="portrait" src="./files/qingyong.jpg" alt="Portrait of Qingyong Zhu" width="180" height="296">
     </section>
 
     <div class="infoblock">
@@ -48,37 +48,42 @@
       </div>
     </div>
 
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I received my Ph.D. degree in Computational Mathematics from Xi’an Jiaotong University in 2020. From 2020 to 2022, I was a postdoctoral researcher with the Research Center for Medical AI, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, where I now serve as an Assistant Professor. My research interests include computational imaging, inverse problems, geometric deep learning, and generative artificial intelligence.
-      </p>
-    </section>
+    <div class="overview-grid">
+      <div class="overview-column">
+        <section>
+          <h2>About Me</h2>
+          <p>
+            I received my Ph.D. degree in Computational Mathematics from Xi’an Jiaotong University in 2020. From 2020 to 2022, I was a postdoctoral researcher with the Research Center for Medical AI, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, where I now serve as an Assistant Professor. My research interests include computational imaging, inverse problems, geometric deep learning, and generative artificial intelligence.
+          </p>
+        </section>
 
-    <section>
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Computational imaging</li>
-        <li>Inverse problems</li>
-        <li>Geometric deep learning</li>
-        <li>Generative artificial intelligence</li>
-      </ul>
-    </section>
+        <section>
+          <h2>Research Interests</h2>
+          <ul>
+            <li>Computational imaging</li>
+            <li>Inverse problems</li>
+            <li>Geometric deep learning</li>
+            <li>Generative artificial intelligence</li>
+          </ul>
+        </section>
+      </div>
 
-    <section>
-      <h2>Recent News</h2>
-      <ul>
-        <li><strong>[2026.08]</strong> Our work on TenF-INR for unsupervised dynamic MRI reconstruction was published online in <em>IEEE Journal of Biomedical and Health Informatics</em>.</li>
-        <li><strong>[2026.06]</strong> We released an updated version of CogGen, a fully unsupervised scan-specific framework for compressively sampled MRI reconstruction.</li>
-        <li><strong>[2025.05]</strong> Our work PEARL appeared in <em>IEEE Journal of Biomedical and Health Informatics</em>, 29(5).</li>
-      </ul>
-    </section>
+      <section class="news-section">
+        <h2>Recent News</h2>
+        <ul>
+          <li><strong>[2026.08.22]</strong> Attended the <a href="https://www.csiam.org.cn/1005/202607/2817.html" target="_blank" rel="noreferrer">UMI 2026 Annual Conference</a> in Xinxiang, China.</li>
+          <li><strong>[2026.06.16]</strong> We released an updated version of <a href="https://arxiv.org/abs/2603.04438" target="_blank" rel="noreferrer">CogGen</a>, a fully unsupervised scan-specific framework for compressively sampled MRI reconstruction.</li>
+          <li><strong>[2026.05.15]</strong> Attended the <a href="https://www.wku.edu.cn/zh-hans/CSIAM2026" target="_blank" rel="noreferrer">15th National Conference on Inverse Problems, Imaging and Applications</a> at Wenzhou-Kean University.</li>
+        </ul>
+      </section>
+    </div>
 
     <section>
       <h2>Selected Publications</h2>
       <p class="section-note">The selected works below list me as first, co-first, or co-corresponding author. <sup>*</sup> Equal contribution; <sup>#</sup> Co-corresponding author. For a complete list, please visit my <a href="https://scholar.google.com/citations?user=BjJFSC8AAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar profile</a>.</p>
 
-      <ol class="publication-list">
+      <div class="publication-columns">
+        <ol class="publication-list">
         <li>
           <strong>Q. Zhu</strong>, Y. Tan, X. Gu, and D. Liang.<br>
           <span class="paper-title">CogGen: Cognitive-Load-Inspired Fully Unsupervised Deep Generative Modeling for Compressively Sampled MRI Reconstruction.</span><br>
@@ -113,7 +118,9 @@
           <em>Discrete Mathematics</em>, vol. 348, no. 2, article 114287, 2025.<br>
           <a href="https://doi.org/10.1016/j.disc.2024.114287" target="_blank" rel="noreferrer">[Paper]</a>
         </li>
+        </ol>
 
+        <ol class="publication-list" start="6">
         <li>
           X. Li, Y. Yang<sup>#</sup>, <strong>Q. Zhu<sup>#</sup></strong>, J. Ma, H. Zheng, and Z. Xu.<br>
           <span class="paper-title">Noise-Generating Mechanism-Driven Implicit Diffusion Prior for Low-Dose CT Sinogram Recovery.</span><br>
@@ -148,13 +155,14 @@
           <em>Magnetic Resonance Imaging</em>, vol. 57, pp. 347–358, 2019.<br>
           <a href="https://doi.org/10.1016/j.mri.2018.12.006" target="_blank" rel="noreferrer">[Paper]</a>
         </li>
-      </ol>
+        </ol>
+      </div>
     </section>
 
     <section class="visitor-section" aria-labelledby="visitor-title">
       <h2 id="visitor-title">Visitors</h2>
       <div class="visitor-map">
-        <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=a&amp;t=m&amp;d=xOKDPeEn4mmceJ5AAW9YHMjTAcz-JoFdsbMnC-iTcyU&amp;co=203060&amp;cmn=f21619&amp;cmo=ff8f53"></script>
+        <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?cl=ffffff&amp;w=a&amp;t=m&amp;d=xOKDPeEn4mmceJ5AAW9YHMjTAcz-JoFdsbMnC-iTcyU&amp;co=203060&amp;cmn=f21619&amp;cmo=ff8f53"></script>
         <noscript>
           <img src="https://www.clustrmaps.com/map_v2.png?cl=ffffff&amp;w=a&amp;t=m&amp;d=xOKDPeEn4mmceJ5AAW9YHMjTAcz-JoFdsbMnC-iTcyU&amp;co=203060&amp;cmn=f21619&amp;cmo=ff8f53" alt="World map of homepage visitors">
         </noscript>
