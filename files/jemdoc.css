@@ -144,20 +144,25 @@ li {
 
 .visitor-map {
   width: 100%;
-  min-height: 260px;
   overflow: hidden;
   text-align: center;
 }
 
-.visitor-map canvas,
-.visitor-map iframe,
-.visitor-map img,
-.visitor-map > a {
-  max-width: 100% !important;
+.visitor-counter {
+  display: block;
+  width: 100%;
 }
 
 .visitor-map img {
+  display: block;
+  width: 100%;
   height: auto;
+  border: 0;
+}
+
+.visitor-note {
+  margin-top: 8px;
+  text-align: center;
 }
 
 #footer {
@@ -222,9 +227,6 @@ li {
     margin-top: 30px;
   }
 
-  .visitor-map {
-    min-height: 190px;
-  }
 }
 
 @media print {
