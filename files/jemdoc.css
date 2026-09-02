@@ -31,7 +31,7 @@ a:focus {
 
 .profile {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 294px;
+  grid-template-columns: minmax(0, 1fr) 309px;
   grid-template-areas: "profile-text portrait";
   align-items: flex-start;
   gap: 42px;
@@ -196,7 +196,7 @@ li {
   }
 
   .profile {
-    grid-template-columns: minmax(0, 1fr) 239px;
+    grid-template-columns: minmax(0, 1fr) 254px;
     gap: 28px;
   }
 
