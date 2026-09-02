@@ -118,6 +118,28 @@ li {
   font-weight: bold;
 }
 
+.visitor-section {
+  width: 100%;
+}
+
+.visitor-map {
+  width: 100%;
+  min-height: 260px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.visitor-map canvas,
+.visitor-map iframe,
+.visitor-map img,
+.visitor-map > a {
+  max-width: 100% !important;
+}
+
+.visitor-map img {
+  height: auto;
+}
+
 #footer {
   margin-top: 48px;
   padding-top: 10px;
@@ -167,6 +189,10 @@ li {
 
   h2 {
     margin-top: 30px;
+  }
+
+  .visitor-map {
+    min-height: 190px;
   }
 }
 
